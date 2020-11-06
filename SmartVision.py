@@ -34,11 +34,8 @@ def temp():
     return str(cpu.temperature)
 
 temp()
-###### SSH to desktop for sound
-if (present):
-    shell = spur.SshShell(hostname="192.168.1.206", username="leokuyper", password="robotics1@")
 
-###### SSH to desktop for sound
+
 
 
 print("Setting up Voice")
